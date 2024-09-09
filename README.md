@@ -84,19 +84,19 @@ Corner-Chef는 레시피 생성형 AI서비스로서 요리 산업 활성화에 
 
 <br><br><br>
 # 4. Backend 애자일 보드 - 요구사항 정의서(Django로 데이터 관리)
-
+![backend백로그](https://github.com/user-attachments/assets/8678a9e1-5eda-4382-b3ae-7e3eb134c31b)
 <br><br><br>
 
 # 5. Frontend 애자일 보드 - 화면 설계서(Vue로 페이지 구성)
-
+![Front백로그](https://github.com/user-attachments/assets/85f16129-f04c-48b2-9714-75b6e686e2ba)
 <br><br><br>
 
 # 6. FastAPI 애자일 보드 - AI 서빙 설계서
-
+![fastapi백로그](https://github.com/user-attachments/assets/89ac55a8-906c-4071-9963-3e318318472b)
 <br><br><br>
 
 # 7. AI-Client 애자일 보드 - AWS 비용 최적화를 위한 DLLS구성
-
+![aiclient백로그](https://github.com/user-attachments/assets/3edd2bd3-5a5e-4d62-a40c-2358f2cf1ee2)
 <br><br><br>
 
 # 8. 서비스 구성도
