@@ -99,7 +99,11 @@ Corner-Chef는 레시피 생성형 AI서비스로서 요리 산업 활성화에 
 ![aiclient백로그](https://github.com/user-attachments/assets/3edd2bd3-5a5e-4d62-a40c-2358f2cf1ee2)
 <br><br><br>
 
-# 8. 서비스 구성도
+# 8-1. 서비스 흐름
+![서비스흐름도](https://github.com/user-attachments/assets/151a99c5-8287-4077-9c45-5da8f612eaac)
+<br>
+# 8-2. 서비스 구성도
+![서비스구성도](https://github.com/user-attachments/assets/80c9dc36-7375-409b-a2e2-b9d18d20bbeb)
 
 <br><br><br>
 
