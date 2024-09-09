@@ -100,9 +100,8 @@ Corner-Chef는 레시피 생성형 AI서비스로서 요리 산업 활성화에 
 <br><br><br>
 
 # 8-1. 서비스 흐름
-![서비스흐름도](https://github.com/user-attachments/assets/151a99c5-8287-4077-9c45-5da8f612eaac)
-#### 1. 개발진 PR -> 2. PR관리자 승인 -> 3-1. 빌드 완료 후 GHCR에 push -> 4. GHCR에서 pull -> 5. docker-compose로 컨테이너화 -> 6. 사용자가 접속하여 서비스 사용 
-#### 1. 개발진 PR -> 2. PR관리자 승인 -> 3-2. AWS Security Group설정 -> 4. docker-compose로 컨테이너화 -> 5. 사용자가 접속하여 서비스 사용 
+![배포과정](https://github.com/user-attachments/assets/652e70dd-1610-4936-9668-08d305d3551e)
+
 <br>
 
 # 8-2. 서비스 구성도
