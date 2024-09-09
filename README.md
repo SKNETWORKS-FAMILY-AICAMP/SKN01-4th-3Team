@@ -81,7 +81,7 @@ Corner-Chef는 레시피 생성형 AI서비스로서 요리 산업 활성화에 
 <br><br><br>
 
 # 3. ERD
-
+![corner_chef_ERD](https://github.com/user-attachments/assets/b2706ae6-bde0-4666-9e0c-47ca2ced5ae5)
 <br><br><br>
 # 4. Backend 애자일 보드 - 요구사항 정의서(Django로 데이터 관리)
 ![backend백로그](https://github.com/user-attachments/assets/8678a9e1-5eda-4382-b3ae-7e3eb134c31b)
