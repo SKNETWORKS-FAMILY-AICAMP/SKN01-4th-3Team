@@ -123,7 +123,7 @@ Corner-Chef는 레시피 생성형 AI서비스로서 요리 산업 활성화에 
 <br><br><br>
 
 # 12. 사용한 기술 스택
-<div align=left><h3>▶🖥️ Frontend</div>
+<div align=left><h3>🖥️ Frontend</div>
 <div align=left>
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white">
   <img src="https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=Vuetify&logoColor=white">
@@ -146,7 +146,7 @@ Corner-Chef는 레시피 생성형 AI서비스로서 요리 산업 활성화에 
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/>
 </div>
 
-<div align=left><h3>▶🤖 AI Core</div>
+<div align=left><h3>🤖 AI Core</div>
 <div align=left>
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=OpenAI&logoColor=white">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
