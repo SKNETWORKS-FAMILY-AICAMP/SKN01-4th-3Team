@@ -50,7 +50,7 @@
 # 2. 프로젝트 개요
 
 ### ▶️ 서비스 명
-'Corner-Chef'
+### ' Corner-Chef '
 
 ### ▶️ 서비스 소개
 Corner-Chef 챗봇 채팅창에 만들고 싶은 음식을 입력하면 해당 음식의 레시피를 제공받을 수 있습니다. 또한, 상황에 따라 냄장고에 남아있는 식재료만 입력하면 그것들로 만들 수 있는 근사한 요리의 레시피를 알려줍니다.<br>
@@ -81,7 +81,7 @@ Corner-Chef는 레시피 생성형 AI서비스로서 요리 산업 활성화에 
 <br><br><br>
 
 # 3. ERD
-![corner_chef_ERD](https://github.com/user-attachments/assets/b2706ae6-bde0-4666-9e0c-47ca2ced5ae5)
+![ERD](https://github.com/user-attachments/assets/f14df5f2-f8be-4820-95fa-cbfd06283a40)
 <br><br><br>
 # 4. Backend 애자일 보드 - 요구사항 정의서(Django로 데이터 관리)
 ![backend백로그](https://github.com/user-attachments/assets/8678a9e1-5eda-4382-b3ae-7e3eb134c31b)
