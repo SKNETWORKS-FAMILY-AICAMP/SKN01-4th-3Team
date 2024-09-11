@@ -192,7 +192,7 @@ def make_qa_json(df):
 <br>
 
 FAISS를 사용하기 위해 QA dataset을 하나의 QA 단위로 나눕니다. 이후 vector로 변경하여 .json 파일로 저장합니다.<br>
-Semantic text chunk를 사용한 dataset을 chunking을 시도하였으나, 하나의 QA 단위로 chunking하는 것이 가장 좋은 결과를 도출했습니다. 따라서 FAISS를 사용하기 위해 텍스트를 청크 단위로 나눈 후 Document 형태로 변환했습니다.
+Semantic text chunk를 사용한 dataset을 chunking을 시도하였으나, 하나의 QA 단위로 chunking하는 것이 가장 좋은 결과를 도출했습니다. 따라서 FAISS를 사용하기 위해 Document를 청크 단위로 나눈 후 Vector 형태로 변환했습니다.
 ```
 def loadDocumentation(self, filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
