@@ -6,6 +6,10 @@
 
 # 1. 팀 소개
 ### ▶️ 팀명 : LMS(Language Models)
+<div style="font-size: 9px; color: #DCDCDC;">
+  LMS는 Large Language ModelS의 약자로, language model 기술을 연구하고 개발하고자 하는 목표로 한 뜻을 이루고 있습니다.<br>
+  에레메스는 명품 브래드 에르메스(Hermès)처럼 고품질의 서비스와 혁신을 제공하기 위해 노력합니다.<br><br>
+</div>
 <table align=center>
   <tbody>
     <tr>
@@ -18,22 +22,28 @@
     <tr>
       <td align="center">
         <div>
-          <img src="https://github.com/user-attachments/assets/297a0d13-f703-47d1-ba95-4f8c65d09629"width="200px; alt=""/>
+          <img src="https://github.com/user-attachments/assets/297a0d13-f703-47d1-ba95-4f8c65d09629" width=200px; height=160px; alt=""/>
         </div>
       </td>
       <td align="center">
         <div>
-          <img src="https://github.com/user-attachments/assets/1142396f-818f-4d5e-8368-2e668b2d3fdb"width="200px; alt=""/>
+          <img src="https://github.com/user-attachments/assets/1142396f-818f-4d5e-8368-2e668b2d3fdb" width=200px; height=160px; alt=""/>
         </div>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/fe25e120-470a-4258-923f-cc8c28996aee"width="200px;" alt=""/>
+        <div>
+          <img src="https://github.com/user-attachments/assets/fe25e120-470a-4258-923f-cc8c28996aee" width=200px; height=160px; alt=""/>
+        </div>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/cbf3a37a-a3de-43cd-afcd-6fe6445af31c"width="200px;" alt=""/>
+        <div>
+          <img src="https://github.com/user-attachments/assets/cbf3a37a-a3de-43cd-afcd-6fe6445af31c" width=200px; height=160px; alt=""/>
+        </div>
       </td>
       <td align="center">
-        <img src="https://github.com/user-attachments/assets/0fbfd10a-51c4-4a66-8961-1054847f12ef"width="200px;" alt=""/>
+        <div>
+          <img src="https://github.com/user-attachments/assets/0fbfd10a-51c4-4a66-8961-1054847f12ef" width=200px; height=160px; alt=""/>
+        </div>
       </td>
     </tr>
     <tr>
@@ -45,86 +55,179 @@
     </tr>
   </tbody>
 </table>
-<br><br><br>
+<br>
 
 # 2. 프로젝트 개요
 
-### ▶️ 서비스 명
-### ' Corner-Chef '
+### ▶️ 프로젝트 명
+LLM 기반 사용자 맞춤 레시피 제공 챗봇 서비스
 
-### ▶️ 서비스 소개
-Corner-Chef 챗봇 채팅창에 만들고 싶은 음식을 입력하면 해당 음식의 레시피를 제공받을 수 있습니다. 또한, 상황에 따라 냄장고에 남아있는 식재료만 입력하면 그것들로 만들 수 있는 근사한 요리의 레시피를 알려줍니다.<br>
-Corner-Chef에서는 요리를 진행하면서 이용하는 사용자들의 편의성을 고려하여, 원하는 레시피를 음성으로 제공받을 수 있습니다.<br>
-Corner-Chef에서는 '체리'를 재화처럼 사용하여 챗봇을 이용할 수 있으며, 상점에서 식재료를 구입할 수 있습니다.<br>
-'체리'는 카카오패이로 결제를 진행하여 충전하거나, 출석체크 보상을 통해 얻을 수 있습니다.<br>
-마이페이지에서는 자신의 계정 정보를 관리할 수 있습니다.
+### ▶️ 프로젝트 소개
+Corner-Chef는 특별하고 독창적인 레시피를 제안하는 사용자 맞춤형 LLM 기반 챗봇 서비스입니다.<br>
+냉장고에 있는 식재료들을 채팅창에 입력하면 해당 재료를 활용한 레시피를 제공받을 수 있습니다. 
 
+### ▶️ 기획 배경
 
-### ▶️ 주요 기능
-1. 챗봇을 통한 레시피 정보 전달
-2. 레시피 음성 답변 기능
-3. 레시피 저장 기능
-4. 출석체크
-5. 마이페이지(프로필 및 비밀번호 변경)
+1. 요리에 대한 관심 증가
+- 최근 TV에서 요리 관련 프로그램의 인기 증가와 요리사들의 활발한 방송 활동, 요리 유튜버들의 구독자 수 증가 추이 등을 통해 개개인의 요리에 대한 관심도가 높아지고 있음을 확인했습니다.
 
-
-### ▶️ 서비스 필요성
-1. 요리에 대한 관심 증가 -> 최근 TV에서 요리 관련 프로그램의 인기 증가와 요리사들의 활발한 방송 활동, 요리 유튜버들의 구독자 수 증가 추이 등을 살펴보면 요리에 대한 관심이 점점 높아지고 있는 것을 알 수 있다.
-2. 기술의 발전 -> AI기술 발전과 요리에 대한 관심 증가가 맞물리면서 현대인들은 원하는 요리의 레시피를 구할 때 예전처럼 레시피북을 보거나, 인터넷 검색을 하는 비중은 점차 줄어들고 생성형 AI에게 묻는 비중이 늘고 있다.
+2. 특별한 레시피를 생성하는 챗봇<br>
+  - vanilla LLM 모델이 제공할 수 있는 단순한 레시피를 넘어선 특별하고 독창적인 레시피를 제안하는 모델을 통해 사용자들에게 맞춤형 레시피를 제공하고자 합니다.
 
 ### ▶️ Corner-Chef만의 차별성
-1. 레시피 음성 제공 - 이용자가 요리를 진행하는 과정에는 손을 자유롭게 사용할 수 없는 상황을 고려하여 레시피를 음성으로 제공받을 수 있습니다.
-2. 남은 식재료 활용 가능 - 모든 식재료가 준비되어 있는 상황이 아닌, 현재 가지고 있는 재료만으로 만들 수 있는 음식의 레시피를 제공도 가능합니다.
+1. 레시피 음성 제공
+   - 이용자가 요리를 진행하는 과정에서 손을 자유롭게 사용할 수 없는 상황을 고려하여 레시피를 음성으로 제공받을 수 있습니다.
+<br>
 
-### ▶️ 서비스 목표
-Corner-Chef는 레시피 생성형 AI서비스로서 요리 산업 활성화에 기여하고, 시장을 선도하는 것을 목표로 하고 있습니다.
-<br><br><br>
+2. Business Model
+   - Corner-Chef와의 대화를 위해서는 채팅 이용권(Ticket)을 구매해야 합니다.
+   - Ticket을 구매하기 위해서는 Corner-Chef만의 재화인 'Cherry'를 충전해야 하며, Cherry를 사용하면 Ticket 뿐만 아니라 식재료 상점에서 식재료를 구입할 수 있습니다.
+   - 'Cherry'는 직접 결제하거나, 출석체크 보상을 통해 충전할 수 있습니다.<br>
 
-# 3. ERD
-![ERD](https://github.com/user-attachments/assets/f14df5f2-f8be-4820-95fa-cbfd06283a40)
-<br><br><br>
-# 4. Backend 애자일 보드 - 요구사항 정의서(Django로 데이터 관리)
-![backend백로그](https://github.com/user-attachments/assets/8678a9e1-5eda-4382-b3ae-7e3eb134c31b)
-<br><br><br>
-
-# 5. Frontend 애자일 보드 - 화면 설계서(Vue로 페이지 구성)
-![Front백로그](https://github.com/user-attachments/assets/85f16129-f04c-48b2-9714-75b6e686e2ba)
-<br><br><br>
-
-# 6. FastAPI 애자일 보드 - AI 서빙 설계서
-![fastapi백로그](https://github.com/user-attachments/assets/89ac55a8-906c-4071-9963-3e318318472b)
-<br><br><br>
-
-# 7. AI-Client 애자일 보드 - AWS 비용 최적화를 위한 DLLS구성
-![aiclient백로그](https://github.com/user-attachments/assets/3edd2bd3-5a5e-4d62-a40c-2358f2cf1ee2)
-<br><br><br>
-
-# 8-1. 서비스 흐름
-![배포과정](https://github.com/user-attachments/assets/652e70dd-1610-4936-9668-08d305d3551e)
+### ▶️ 주요 기능
+1. 사용자 맞춤 레시피 생성 기능
+2. 레시피를 음성을 읽어주는 TTS 기능
+3. 음성으로 채팅을 입력할 수 있는 STT 기능
+4. 생성된 레시피를 저장 기능 제공
 
 <br>
 
-# 8-2. 서비스 구성도
-![서비스구성도](https://github.com/user-attachments/assets/80c9dc36-7375-409b-a2e2-b9d18d20bbeb)
+# 3. ERD
+<img src="https://github.com/user-attachments/assets/f14df5f2-f8be-4820-95fa-cbfd06283a40" width=700px; alt=""/>
+<br><br>
 
-<br><br><br>
+# 4. 애자일 보드
+### ▶️ Backend
+- 요구사항 정의서 (Django로 데이터 관리)
+<img src="https://github.com/user-attachments/assets/8678a9e1-5eda-4382-b3ae-7e3eb134c31b" width=900px; alt=""/>
+<br>
 
-# 9. FastAPI와 DLLS를 활용하여 LLM 작업 진행
+### ▶️ Frontend
+- 화면 설계서 (Vue로 페이지 구성)
+<img src="https://github.com/user-attachments/assets/85f16129-f04c-48b2-9714-75b6e686e2ba" width=900px; alt=""/>
+<br>
 
-<br><br><br>
+### ▶️ FastAPI
+- AI 서빙 설계서
+<img src="https://github.com/user-attachments/assets/89ac55a8-906c-4071-9963-3e318318472b" width=500px; alt=""/>
+<br>
 
-# 10. FastAPI - DLLS 구성에서 Fine Tuning 진행
+### ▶️ AI-Client
+- AWS 비용 최적화를 위한 DLLS구성
+<img src="https://github.com/user-attachments/assets/3edd2bd3-5a5e-4d62-a40c-2358f2cf1ee2" width=500px; alt=""/>
+<br><br>
 
-<br><br><br>
+# 5-1. 서비스 흐름
+<img src="https://github.com/user-attachments/assets/652e70dd-1610-4936-9668-08d305d3551e" width=700px; alt=""/>
+<br><br>
 
-# 11. 보안 설정을 위한 TLS / SSL 소켓 구성
+# 5-2. 서비스 구성도
+<img src="https://github.com/user-attachments/assets/80c9dc36-7375-409b-a2e2-b9d18d20bbeb" width=700px; alt=""/>
+<br><br>
+
+# 6. FastAPI - DLLS 구성에서 Fine Tuning 진행
+OpenAI API를 활용한 gpt-4 model을 fine-tuning하여 모델 성능을 개선하고자 했으나, 시간 및 비용을 고려하였을 때 좋지 않은 결과가 도출되었습니다.
+따라서, 더 나은 결과 도출을 위해 Langchain을 활용하여 RAG 기반 LLM을 구축하였습니다.<br>
+
+- langchain의 RunnableWithMessageHistory() 체인 기반 RAG 시스템 구축
+```
+  chain = (
+          {
+              "context": itemgetter("question") | faiss_index.as_retriever(), # retriever
+              "question": itemgetter("question"),
+              "chat_history": itemgetter("chat_history"),
+          }
+          | prompt # 프롬프트 추가
+          | llm
+          | StrOutputParser() # 언어 모델의 출력을 문자열로 변환
+  )
+
+  qa_chain = RunnableWithMessageHistory(
+      chain,
+      self.get_session_history,
+      input_messages_key="question",  # 사용자의 질문이 템플릿 변수에 들어갈 key
+      history_messages_key="chat_history",  # 기록 메시지의 키
+  )
+
+  return qa_chain
+```
+
+- chain에 사용한 promptTemplate
+```
+def generatePrompt(self):
+    prompt = ChatPromptTemplate.from_messages(
+        [
+            (
+                "system",
+                "당신은 주어진 재료를 기반으로 레시피를 생성하는 챗봇입니다. 질문에 대한 답변을 제공해 주세요. "
+                "[레시피 명], [요리 인분 수], [재료], [요리 과정]을 []를 사용하여 명시해 주세요.",
+            ),
+            MessagesPlaceholder(variable_name="chat_history"),
+            ("human", "{question}"),
+        ]
+    )
+    return prompt
+```
+<br>
+
+# 7. QA Dataset
+- 레시피 QA 데이터를 생성합니다.
+```
+def make_qa_json(df):
+    cleaned_ingredients = [remove_units_for_ingredient(item) for item in df['CKG_MTRL_CN']]
+    df['clean_ingredient'] = cleaned_ingredients
+
+    rag_data = []
+    for i in range(len(df)):
+        question = f"{df['clean_ingredient'][i]}로 할 수 있는 요리 레시피 알려줘."
+        answer = (f"말씀하신 재료로 할 수 있는 요리 레시피를 알려드리겠습니다."
+                  f"[레시피 명] {df['CKG_NM'][i]}"
+                  f"[재료] {df['CKG_MTRL_CN'][i]}"
+                  f"[요리 인분 수] {df['CKG_INBUN_NM'][i]}인분"
+                  f"[요리 분류] {df['CKG_MTH_ACTO_NM'][i]}"
+                  f"[요리 과정] {df['RCP_CONTENT'][i]}"
+                  f"맛있는 식사 되세요!")
+        rag_data.append({'question': question, 'answer': answer})
+```
+<br>
+
+- FAISS를 사용하기 위해 QA dataset을 하나의 QA 단위로 나눕니다. 이후 vector로 변경하여 .json 파일로 저장합니다.
+  Semantic text chunk를 사용한 dataset을 chunking을 시도하였으나, 하나의 QA 단위로 chunking하는 것이 가장 좋은 결과를 도출했습니다.
+  - 따라서 FAISS를 사용하기 위해 텍스트를 청크 단위로 나눈 후 Document 형태로 변환했습니다.
+```
+def loadDocumentation(self, filepath):
+    with open(filepath, 'r', encoding='utf-8') as f:
+        qa_data = json.load(f)
+
+    documents = []
+    for item in qa_data:
+        question = item['question']
+        answer = item['answer']
+        documents.append(f"Question: {question}\nAnswer: {answer}")
+    return documents
+```
+
+문서 검색 속도를 개선하기 위해 FAISS 벡터 파일을 생성한 뒤 load합니다.
+```
+async def createFaissIndex(self, texts, embedding):
+    faissIndex = FAISS.from_texts(texts=texts, embedding=embedding)
+    faissIndex.save_local(self.FAISS_INDEX_PATH)
+```
+```
+def loadFaissIndex(self, faissIndexPath, embeddings):
+    faissIndex = FAISS.load_local(folder_path=faissIndexPath, embeddings=embeddings, allow_dangerous_deserialization=True)
+    return faissIndex
+```
+<br>
+
+# 8. 보안 설정을 위한 TLS / SSL 소켓 구성
 ![소켓구성](https://github.com/user-attachments/assets/adb76d5d-ab08-4801-baab-b4c4f2a888b7)
 
-##### - 소켓 통신 구성 시, 로컬 서버는 보안에 매우 취약한 상태에 있습니다.<br>
-##### - 보안 취약성을 이용하여 서버가 공격 당할 위험성이 있기 때문에 TLS/SSL 통신을 위한 보안 인증서를 만들어 통신을 진행하였습니다.
-<br><br><br>
+- 소켓 통신 구성 시, 로컬 서버는 보안에 매우 취약한 상태에 있습니다.
+- 보안 취약성을 이용하여 서버가 공격 당할 위험성이 있기 때문에 TLS/SSL 통신을 위한 보안 인증서를 만들어 통신을 진행하였습니다.
+<br><br>
 
-# 12. 사용한 기술 스택
+# 9. 사용한 기술 스택
 <div align=left><h3>🖥️ Frontend</div>
 <div align=left>
   <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white">
@@ -176,21 +279,24 @@ Corner-Chef는 레시피 생성형 AI서비스로서 요리 산업 활성화에 
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
   <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white">
 </div>
-<br><br><br>
+<br><br>
 
-# 13. 시연 결과
+# 10. 시연 결과
 시연 결과는 그냥 저희 서비스 링크를 거는게 좋을거 같습니다
-<br><br><br>
+<br><br>
 
-# 14. 한 줄 회고
-### 🗨️ 최민지 - 
+# 11. 한 줄 회고
+__🗨️ 최민지__
+- 서비스를 AWS에 배포해볼 수 있었던 좋은 경험이었습니다. 많은 이슈들을 겪었지만 팀원들과 함께 핸들링하며 무사히 프로젝트를 마무리할 수 있었습니다.
 
-### 🗨️ 이민재 - 우여곡절이 많았지만, 어찌저찌 이번 프로젝트도 잘 마무리 되었네요. 각자의 자리에서 고생한 팀원분들 정말 고생 많으셨습니다. 최종까지 잘 마무리 하시고, 각자의 자리에서 행복하시길 바랍니다.
+__🗨️ 이민재__
+- 우여곡절이 많았지만, 어찌저찌 이번 프로젝트도 잘 마무리 되었네요. 각자의 자리에서 고생한 팀원분들 정말 고생 많으셨습니다. 최종까지 잘 마무리 하시고, 각자의 자리에서 행복하시길 바랍니다.
 
-### 🗨️ 이근 - 각자 자기 위치에서 최선을 다해서 프로젝트를 하는 동안 너무 마음이 편했습니다.
+__🗨️ 이근__
+- 각자 자기 위치에서 최선을 다해서 프로젝트를 하는 동안 너무 마음이 편했습니다.
 
-### 🗨️ 이재호 - 간단해 보이는 기능들도 생각보다 아주 복잡하다는걸 느꼈습니다.
+__🗨️ 이재호__
+- 간단해 보이는 기능들도 생각보다 아주 복잡하다는걸 느꼈습니다.
 
-### 🗨️ 이현석 - 팀장으로서 맡은 일도 많으신데 프로젝트를 너무 잘 이끌어주신 민지님, DevOps에서 맹활약하시면서 팀원들 스터디까지 챙겨주신 민재님, Front와 Back에서 총대 매고 많은 것들을 작업하시고 저까지 많이 알려주시면서 해주신 근님, 묵묵듬직하게 FineTuning 하시느라 고생하신 재호님까지 좋은 팀원들을 만나 많은 것을 배우고 느낄 수 있던 프로젝트였습니다. 감사했습니다.
-
-<br><br><br>
+__🗨️ 이현석__
+- 팀장으로서 맡은 일도 많으신데 프로젝트를 너무 잘 이끌어주신 민지님, DevOps에서 맹활약하시면서 팀원들 스터디까지 챙겨주신 민재님, Front와 Back에서 총대 매고 많은 것들을 작업하시고 저까지 많이 알려주시면서 해주신 근님, 묵묵듬직하게 FineTuning 하시느라 고생하신 재호님까지 좋은 팀원들을 만나 많은 것을 배우고 느낄 수 있던 프로젝트였습니다. 감사했습니다.
