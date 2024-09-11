@@ -120,8 +120,8 @@ Corner-Chef는 레시피 생성형 AI서비스로서 요리 산업 활성화에 
 # 11. 보안 설정을 위한 TLS / SSL 소켓 구성
 ![소켓구성](https://github.com/user-attachments/assets/adb76d5d-ab08-4801-baab-b4c4f2a888b7)
 
-소켓 통신 구성 시, 로컬 서버는 보안에 매우 취약한 상태에 있습니다.<br>
-보안 취약성을 이용하여 서버가 공격 당할 위험성이 있기 때문에 TLS/SSL 통신을 위한 보안 인증서를 만들어 통신을 진행하였습니다.
+##### - 소켓 통신 구성 시, 로컬 서버는 보안에 매우 취약한 상태에 있습니다.<br>
+##### - 보안 취약성을 이용하여 서버가 공격 당할 위험성이 있기 때문에 TLS/SSL 통신을 위한 보안 인증서를 만들어 통신을 진행하였습니다.
 <br><br><br>
 
 # 12. 사용한 기술 스택
@@ -166,9 +166,14 @@ Corner-Chef는 레시피 생성형 AI서비스로서 요리 산업 활성화에 
 <div align=left><h3>▶️ Dev Tool </div>
 <div align="left">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">
+  <img src="https://img.shields.io/badge/Pycharm-000000?style=for-the-badge&logo=Pycharm&logoColor=white">
+  <img src="https://img.shields.io/badge/Visual Studio Code-008CFF?style=for-the-badge&logo=Visual Studio Code&logoColor=white">
+</div>
+  
+<div align=left><h3>📢 Communication </div>
+<div align="left">
   <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=Slack&logoColor=white">
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
-  <img src="https://img.shields.io/badge/Pycharm-000000?style=for-the-badge&logo=Pycharm&logoColor=white">
   <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white">
 </div>
 <br><br><br>
